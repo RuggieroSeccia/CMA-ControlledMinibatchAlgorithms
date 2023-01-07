@@ -1,16 +1,12 @@
 # Controlled Minibatch Algorithms
 
-![Image](Image-readme.png)
-
-or
-
 <p align="center">
   <img src="Image-readme.png" width="300" height="300"/>
 </p>
 
-This repository provides the code used in the paper "Convergence under Lipschitz smoothness of ease-controlled Random Reshuffling gradient Algorithms". 
+This repository provides the code used in the paper __"Convergence under Lipschitz smoothness of ease-controlled Random Reshuffling gradient Algorithms"__. 
 
-_Abstract_:
+_Abstract:
 We consider minimizing the average of a very large number of smooth and possibly non-convex functions. 
 This optimization problem has deserved much attention in the past years due to the many applications in different fields, 
 the most challenging being training Machine Learning models. Widely used approaches for solving this problem are mini-batch 
@@ -26,7 +22,7 @@ iteration, avoiding the use of preset rules. We prove convergence under the lone
 of the gradients of the component functions and perform extensive computational analysis using Deep Neural Architectures
 and a benchmark of datasets. We compare our implementation with both full batch gradient methods and online standard 
 implementation of IG/RR methods, proving that the computational effort is comparable with the corresponding online 
-methods and that the control on the learning rate may allow faster decrease.
+methods and that the control on the learning rate may allow faster decrease._
 
 A free version of the paper can be found on [ArXiv](https://arxiv.org/abs/2212.01848).
  
